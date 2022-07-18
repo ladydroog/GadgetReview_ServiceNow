@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide the Closed Skipped dropdown choice from all users except the Gadget Admins</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Closed Skipped</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Hide "Closed Skipped" state from everyone but gadget_admin
+   if (g_user.hasRole('x_767916_gadget.gadget_admin'))
+		return;
+
+	if (g_form.getValue('incident_state') != '7')
+		g_form.removeOption('incident_state', 7);
+	if (g_form.getValue('state') != '7')
+		g_form.removeOption('state', 7);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 06:18:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bf74e3c2fe01110111049e72799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Closed Skipped</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_script_client_8bf74e3c2fe01110111049e72799b6cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 06:18:15</sys_updated_on>
+        <table>x_767916_gadget_review_content</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

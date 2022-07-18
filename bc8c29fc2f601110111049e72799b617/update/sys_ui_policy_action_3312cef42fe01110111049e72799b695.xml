@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>gadget</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 05:49:46</sys_created_on>
+        <sys_id>3312cef42fe01110111049e72799b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gadget</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3312cef42fe01110111049e72799b695</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 05:49:46</sys_updated_on>
+        <table>x_767916_gadget_review_content</table>
+        <ui_policy display_value="Make Gadget field mandatory">2e028ef42fe01110111049e72799b646</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

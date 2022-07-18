@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>e4f2f9b82fa01110111049e72799b64f</applets>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_hidden_preference_name/>
+        <orientation>horizontal</orientation>
+        <required_roles>x_767916_gadget.gadget_admin,x_767916_gadget.gadget_user</required_roles>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 04:43:16</sys_created_on>
+        <sys_id>64f2f9b82fa01110111049e72799b674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Content</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_sg_icon_section_64f2f9b82fa01110111049e72799b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 04:43:16</sys_updated_on>
+        <table/>
+        <title>Review Content</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

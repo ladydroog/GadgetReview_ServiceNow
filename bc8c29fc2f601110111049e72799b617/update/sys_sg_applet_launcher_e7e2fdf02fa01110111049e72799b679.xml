@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button display_value="The Gadget Review Launcher Button Instance">6e63f1f82fa01110111049e72799b6de</header_button>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>The Gadget Review</name>
+        <required_roles>x_767916_gadget.gadget_admin,x_767916_gadget.gadget_user</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 04:43:11</sys_created_on>
+        <sys_id>e7e2fdf02fa01110111049e72799b679</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>The Gadget Review</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_e7e2fdf02fa01110111049e72799b679</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 04:45:19</sys_updated_on>
+        <title>The Gadget Review</title>
+    </sys_sg_applet_launcher>
+</record_update>
