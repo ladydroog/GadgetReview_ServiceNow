@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">e4ca761d2fac1110111049e72799b6ce</sp_column>
+        <sp_widget display_value="User Profile">6e6ac664d710120023c84f80de610318</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 01:33:18</sys_created_on>
+        <sys_id>d5aa57592f205110111049e72799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sp_instance_d5aa57592f205110111049e72799b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 01:33:18</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d5aa57592f205110111049e72799b63b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</application>
+        <file_path/>
+        <instance_id>2d3b51f9db053f44f492c597059619a0</instance_id>
+        <instance_name>dev83816</instance_name>
+        <name>sp_instance_d5aa57592f205110111049e72799b63b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="3">e4ca761d2fac1110111049e72799b6ce</sp_column><sp_widget display_value="User Profile">6e6ac664d710120023c84f80de610318</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-07 01:33:18</sys_created_on><sys_id>d5aa57592f205110111049e72799b63b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package><sys_policy/><sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope><sys_update_name>sp_instance_d5aa57592f205110111049e72799b63b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-07 01:33:18</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=d5aa57592f205110111049e72799b63b"/></record_update>]]></payload>
+        <payload_hash>-1910901031</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>fc8c29fc2f601110111049e72799b619</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 01:33:18</sys_created_on>
+        <sys_id>19aa57592f205110111049e72799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d64a3bb60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 01:33:18</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>51aa57593b2051103056e80303aa233d</update_guid>
+        <update_guid_history>51aa57593b2051103056e80303aa233d:-1910901031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">acea57592f205110111049e72799b64a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 01:34:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>6aafaf3ea31f4171b96f08736013af59</sys_id>
+        <sys_metadata>d5aa57592f205110111049e72799b63b</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_scope_delete display_value="">8d736a137400413ca7c7ce6226fe2001</sys_scope_delete>
+        <sys_update_name>sp_instance_d5aa57592f205110111049e72799b63b</sys_update_name>
+        <sys_update_version display_value="sp_instance_d5aa57592f205110111049e72799b63b">19aa57592f205110111049e72799b63d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

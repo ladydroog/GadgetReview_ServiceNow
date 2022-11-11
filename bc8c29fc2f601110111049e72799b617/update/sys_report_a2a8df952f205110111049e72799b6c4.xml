@@ -27,7 +27,7 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="NY Purples light to dark (3)">dbe9f14142a27eaf8851adde91029b73</color_palette>
+        <color_palette display_value="Sequential - Purples light to dark (3)">dbe9f14142a27eaf8851adde91029b73</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>
@@ -106,14 +106,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-07 01:24:38</sys_created_on>
         <sys_id>a2a8df952f205110111049e72799b6c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
         <sys_name>Review Types</sys_name>
         <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
         <sys_policy/>
         <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
         <sys_update_name>sys_report_a2a8df952f205110111049e72799b6c4</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 01:28:32</sys_updated_on>
         <table>x_767916_gadget_review_content</table>
         <title>Review Types</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

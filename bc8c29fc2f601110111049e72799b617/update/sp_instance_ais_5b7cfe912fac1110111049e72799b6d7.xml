@@ -22,14 +22,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-06 23:21:32</sys_created_on>
         <sys_id>5b7cfe912fac1110111049e72799b6d7</sys_id>
-        <sys_mod_count>9</sys_mod_count>
         <sys_name>The Gadget Review</sys_name>
         <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
         <sys_policy/>
         <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
         <sys_update_name>sp_instance_ais_5b7cfe912fac1110111049e72799b6d7</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 23:32:32</sys_updated_on>
         <title>The Gadget Review</title>
         <url/>
         <widget_parameters><![CDATA[{

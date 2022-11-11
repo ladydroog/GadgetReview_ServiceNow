@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="47d4f53c2fa01110111049e72799b6d2" extends="sys_import_set_row" label="items" max_length="40" name="x_767916_gadget_items" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Gadget Name" label="Gadget Name" max_length="40" name="u_gadget_name" type="string"/>
+        <element attributes="import_attribute_name=GB RAM" label="GB RAM" max_length="40" name="u_gb_ram" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating System" label="Operating System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Release Date" label="Release Date" max_length="40" name="u_release_date" type="glide_date"/>
+    </element>
+</database>

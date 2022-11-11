@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_767916_gadget.gadget_admin" name="x_767916_gadget.gadget_admin">67dda9b02fa01110111049e72799b67c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 04:21:05</sys_created_on>
+        <sys_id>b3dd6db42fa01110111049e72799b61c</sys_id>
+        <sys_name>67dda9b02fa01110111049e72799b67c</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b3dd6db42fa01110111049e72799b61c</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

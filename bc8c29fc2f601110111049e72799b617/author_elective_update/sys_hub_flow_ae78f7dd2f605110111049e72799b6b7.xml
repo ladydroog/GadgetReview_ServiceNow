@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Sends a tweet when a new Gadget is entered into the Gadgets table</description>
+        <internal_name>new_gadget_tweet</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>New Gadget Tweet</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles>37dd69b42fa01110111049e72799b6c0,67dda9b02fa01110111049e72799b67c</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:43:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae78f7dd2f605110111049e72799b6b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Gadget Tweet</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_hub_flow_ae78f7dd2f605110111049e72799b6b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=ae78f7dd2f605110111049e72799b6b7"/>
+    <sys_variable_value action="DELETE" query="document_key=ae78f7dd2f605110111049e72799b6b7"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=ae78f7dd2f605110111049e72799b6b7^sys_idNOT INb02933112fa05110111049e72799b68e"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="New Gadget Tweet">ae78f7dd2f605110111049e72799b6b7</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:31</sys_created_on>
+        <sys_id>b02933112fa05110111049e72799b68e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=b02933112fa05110111049e72799b68e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b02933112fa05110111049e72799b68e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:31</sys_created_on>
+        <sys_id>742933112fa05110111049e72799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b02933112fa05110111049e72799b68e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:31</sys_created_on>
+        <sys_id>fc2933112fa05110111049e72799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <value>x_767916_gadget_glist</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=ae78f7dd2f605110111049e72799b6b7^sys_idNOT INa678f7dd2f605110111049e72799b6bb"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>ae78f7dd2f605110111049e72799b6b7</id>
+        <name>New Gadget Tweet</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:43:38</sys_created_on>
+        <sys_id>a678f7dd2f605110111049e72799b6bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:43:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=ae78f7dd2f605110111049e72799b6b7^sys_idNOT IN2c29fbdd2f605110111049e72799b689,fc29fbdd2f605110111049e72799b692"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Gadget Tweet">ae78f7dd2f605110111049e72799b6b7</model>
+        <model_id>ae78f7dd2f605110111049e72799b6b7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:30</sys_created_on>
+        <sys_id>2c29fbdd2f605110111049e72799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Gadget Tweet">ae78f7dd2f605110111049e72799b6b7</model>
+        <model_id>ae78f7dd2f605110111049e72799b6b7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:31</sys_created_on>
+        <sys_id>fc29fbdd2f605110111049e72799b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7^sys_idNOT IN782933112fa05110111049e72799b68b,b429fbdd2f605110111049e72799b691"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:31</sys_created_on>
+        <sys_id>782933112fa05110111049e72799b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:31</sys_created_on>
+        <sys_id>b429fbdd2f605110111049e72799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</application>
+        <file_path/>
+        <instance_id>2d3b51f9db053f44f492c597059619a0</instance_id>
+        <instance_name>dev83816</instance_name>
+        <name>sys_hub_flow_ae78f7dd2f605110111049e72799b6b7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access/&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Sends a tweet when a new Gadget is entered into the Gadgets table&lt;/description&gt;&lt;internal_name&gt;new_gadget_tweet&lt;/internal_name&gt;&lt;label_cache&gt;[]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;New Gadget Tweet&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles&gt;37dd69b42fa01110111049e72799b6c0,67dda9b02fa01110111049e72799b67c&lt;/run_with_roles&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:43:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ae78f7dd2f605110111049e72799b6b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;New Gadget Tweet&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="The Gadget Review" source="x_767916_gadget"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="The Gadget Review"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_ae78f7dd2f605110111049e72799b6b7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ae78f7dd2f605110111049e72799b6b7"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ae78f7dd2f605110111049e72799b6b7"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=ae78f7dd2f605110111049e72799b6b7^sys_idNOT INb02933112fa05110111049e72799b68e"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Gadget Tweet"&gt;ae78f7dd2f605110111049e72799b6b7&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:31&lt;/sys_created_on&gt;&lt;sys_id&gt;b02933112fa05110111049e72799b68e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b02933112fa05110111049e72799b68e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;b02933112fa05110111049e72799b68e&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:31&lt;/sys_created_on&gt;&lt;sys_id&gt;742933112fa05110111049e72799b68f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;b02933112fa05110111049e72799b68e&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:31&lt;/sys_created_on&gt;&lt;sys_id&gt;fc2933112fa05110111049e72799b68f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;value&gt;x_767916_gadget_glist&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=ae78f7dd2f605110111049e72799b6b7^sys_idNOT INa678f7dd2f605110111049e72799b6bb"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ae78f7dd2f605110111049e72799b6b7&lt;/id&gt;&lt;name&gt;New Gadget Tweet&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:43:38&lt;/sys_created_on&gt;&lt;sys_id&gt;a678f7dd2f605110111049e72799b6bb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:43:38&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=ae78f7dd2f605110111049e72799b6b7^sys_idNOT IN2c29fbdd2f605110111049e72799b689,fc29fbdd2f605110111049e72799b692"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="New Gadget Tweet"&gt;ae78f7dd2f605110111049e72799b6b7&lt;/model&gt;&lt;model_id&gt;ae78f7dd2f605110111049e72799b6b7&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:30&lt;/sys_created_on&gt;&lt;sys_id&gt;2c29fbdd2f605110111049e72799b689&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="The Gadget Review"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="New Gadget Tweet"&gt;ae78f7dd2f605110111049e72799b6b7&lt;/model&gt;&lt;model_id&gt;ae78f7dd2f605110111049e72799b6b7&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:31&lt;/sys_created_on&gt;&lt;sys_id&gt;fc29fbdd2f605110111049e72799b692&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="The Gadget Review"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7^sys_idNOT IN782933112fa05110111049e72799b68b,b429fbdd2f605110111049e72799b691"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:31&lt;/sys_created_on&gt;&lt;sys_id&gt;782933112fa05110111049e72799b68b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="The Gadget Review" source="x_767916_gadget"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="The Gadget Review"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae78f7dd2f605110111049e72799b6b7&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-07 03:46:31&lt;/sys_created_on&gt;&lt;sys_id&gt;b429fbdd2f605110111049e72799b691&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="The Gadget Review" source="x_767916_gadget"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="The Gadget Review"&gt;bc8c29fc2f601110111049e72799b617&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-07 03:46:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-309236602</payload_hash>
+        <record_name>New Gadget Tweet</record_name>
+        <reverted_from/>
+        <source>fc8c29fc2f601110111049e72799b619</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 03:46:32</sys_created_on>
+        <sys_id>852933112fa05110111049e72799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d6c435db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 03:46:32</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8d2933114fa05110cd1123ac5f13739e</update_guid>
+        <update_guid_history>8d2933114fa05110cd1123ac5f13739e:-309236602,6a78f7dde360511035ed6a7a066567c0:922737147</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-10 04:46:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>4078f4b32d9946e09fb4d08c866bb641</sys_id>
+        <sys_metadata>ae78f7dd2f605110111049e72799b6b7</sys_metadata>
+        <sys_name>New Gadget Tweet</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_scope_delete display_value="">8d736a137400413ca7c7ce6226fe2001</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_ae78f7dd2f605110111049e72799b6b7</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_ae78f7dd2f605110111049e72799b6b7">852933112fa05110111049e72799b69f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

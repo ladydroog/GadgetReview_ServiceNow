@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b22fd782fa01110111049e72799b690" extends="task" label="Review Content" max_length="40" name="x_767916_gadget_review_content" type="collection">
+        <element attributes="encode_utf8=false" display="true" label="Gadget" max_length="32" name="gadget" reference="x_767916_gadget_glist" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="unboxing" label="Review Type" max_length="40" name="review_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Full Review" value="full_review"/>
+                <element inactive_on_update="false" label="Giveaway" value="giveaway"/>
+                <element inactive_on_update="false" label="Unboxing" value="unboxing"/>
+            </choice>
+        </element>
+    </element>
+</database>

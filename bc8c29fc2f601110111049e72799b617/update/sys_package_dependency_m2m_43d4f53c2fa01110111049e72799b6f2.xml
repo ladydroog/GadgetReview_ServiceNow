@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">37dd52e2a5300110c0a0e1db2cdc959a</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 04:51:38</sys_created_on>
+        <sys_id>43d4f53c2fa01110111049e72799b6f2</sys_id>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+    </sys_package_dependency_m2m>
+</record_update>

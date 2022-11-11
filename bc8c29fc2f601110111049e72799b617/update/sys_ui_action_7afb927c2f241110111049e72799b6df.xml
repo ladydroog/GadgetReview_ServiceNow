@@ -15,6 +15,7 @@
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint>Create a new Review for this Gadget</hint>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -49,15 +50,12 @@ action.openGlideRecord(newReview);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7afb927c2f241110111049e72799b6df</sys_id>
-        <sys_mod_count>11</sys_mod_count>
         <sys_name>Create New Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
         <sys_policy/>
         <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
         <sys_update_name>sys_ui_action_7afb927c2f241110111049e72799b6df</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-05 09:35:42</sys_updated_on>
         <table>x_767916_gadget_glist</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

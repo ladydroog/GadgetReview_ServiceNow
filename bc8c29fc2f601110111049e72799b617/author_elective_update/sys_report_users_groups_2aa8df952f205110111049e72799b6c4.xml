@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">a2a8df952f205110111049e72799b6c4</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 01:24:38</sys_created_on>
+        <sys_id>2aa8df952f205110111049e72799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a2a8df952f205110111049e72799b6c4</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_update_name>sys_report_users_groups_2aa8df952f205110111049e72799b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 01:24:38</sys_updated_on>
+        <user_id display_value="Rebecca Maza">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</application>
+        <file_path/>
+        <instance_id>2d3b51f9db053f44f492c597059619a0</instance_id>
+        <instance_name>dev83816</instance_name>
+        <name>sys_report_users_groups_2aa8df952f205110111049e72799b6c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">a2a8df952f205110111049e72799b6c4</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-07 01:24:38</sys_created_on><sys_id>2aa8df952f205110111049e72799b6c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>a2a8df952f205110111049e72799b6c4</sys_name><sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package><sys_policy/><sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope><sys_update_name>sys_report_users_groups_2aa8df952f205110111049e72799b6c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-07 01:24:38</sys_updated_on><user_id display_value="Rebecca Maza">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>1556679648</payload_hash>
+        <record_name>a2a8df952f205110111049e72799b6c4</record_name>
+        <reverted_from/>
+        <source>fc8c29fc2f601110111049e72799b619</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 01:24:38</sys_created_on>
+        <sys_id>6aa8df952f205110111049e72799b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d6424cea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 01:24:38</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>a2a8df950f20511088be1b159677d5c6</update_guid>
+        <update_guid_history>a2a8df950f20511088be1b159677d5c6:1556679648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 01:26:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>4d22266b2f624d50a4ebb01c81b65440</sys_id>
+        <sys_metadata>2aa8df952f205110111049e72799b6c4</sys_metadata>
+        <sys_name>a2a8df952f205110111049e72799b6c4</sys_name>
+        <sys_package display_value="The Gadget Review" source="x_767916_gadget">bc8c29fc2f601110111049e72799b617</sys_package>
+        <sys_parent display_value="Review Types">a2a8df952f205110111049e72799b6c4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="The Gadget Review">bc8c29fc2f601110111049e72799b617</sys_scope>
+        <sys_scope_delete display_value="">8d736a137400413ca7c7ce6226fe2001</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_2aa8df952f205110111049e72799b6c4</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_2aa8df952f205110111049e72799b6c4">6aa8df952f205110111049e72799b6c6</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
